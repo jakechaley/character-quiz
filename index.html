@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+  <title>Whcih Character are You?</title>
+</head>
+<body>
+  <div class="container">
+
+    <h1>Which Character are You?</h1>
+    <h3>Give us a little info to find out which character from, "I Think You Should Leave" you are.</h3>
+    <form id="userInput">
+      <label for="age">Age</label>
+      <input type="text" id="age" required="true">
+      <label for="color">Favorite Color</label>
+      <select id="color">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+      </select>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh3a5c2Wc37jRg_MgosrOtqgnEdc4akii4sg&usqp=CAU" alt="ink blot image">
+      <label for="blot">What do you see in the image below?</label>
+      <select id="blot">
+        <option value="monster">A monster standing behind Mickey Mouse</option>
+        <option value="lady">A lady smoking</option>
+        <option value="crab">A Crab</option>
+      </select>
+      <button class="btn btn-primary">Submit</button>
+    </form>
+
+    <div>
+    <h1>You Are:</h1>
+    <p>
+      <span class="hidden" id="char1">Bozo the Clown</span>
+      <span class="hidden" id="char2">Corn Cob TV Guy</span>
+      <span class="hidden" id="char3">Bart Harley Jarvis</span>
+      <span class="hidden" id="char4">All the little buff boys</span>
+      <span class="hidden" id="char5">SCROOGE!</span>
+    </p>
+    </div>
+
+  </div>
+</body>
+</html>
